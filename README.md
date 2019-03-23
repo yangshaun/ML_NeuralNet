@@ -6,6 +6,7 @@ This project is basically for practicing NN.
 * [MNIST](http://yann.lecun.com/exdb/mnist/) - The handwritten digits
 
 ### Architecture
+$$
 \begin{align}
  \textbf{input features}: \hspace{15pt} & x \in \mathbb{R}^D \\
  \textbf{linear}^{(1)}: \hspace{15pt} & u = W^{(1)}x + b^{(1)} \hspace{2em}, W^{(1)} \in \mathbb{R}^{M\times D} \text{ and } b^{(1)} \in \mathbb{R}^{M}  \label{linear_forward}\\
@@ -25,4 +26,5 @@ This project is basically for practicing NN.
  \textbf{predicted label}: \hspace{15pt} & \hat{y} = argmax_k z_k.
 %& l = -\sum_{k} y_{k}\log{\hat{y_{k}}} \hspace{2em}, \vy \in \mathbb{R}^{k} \text{ and } y_k=1 \text{ if } \vx \text{ belongs to the } k' \text{-th class}.
 \end{align}
+$$
 
